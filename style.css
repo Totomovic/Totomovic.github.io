@@ -9,7 +9,7 @@ body {
 
 header {
   text-align: center;
-  padding: 40px 0;
+  padding: 40px 20px;
   background-color: #0078d4;
   color: white;
 }
@@ -17,6 +17,34 @@ header {
 header h1 {
   margin-bottom: 10px;
   font-size: 2.5em;
+}
+
+nav {
+  background-color: #004a8f;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 5px 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -29,6 +57,12 @@ section {
 
 h2 {
   color: #0078d4;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #00509e;
+  margin-top: 15px;
 }
 
 ul {
@@ -58,4 +92,5 @@ th {
 
 .badges img {
   margin: 5px 5px 5px 0;
+  height: 30px;
 }
